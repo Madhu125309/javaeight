@@ -12,4 +12,12 @@ class num implements interface1 {
         num n = new num();
         n.message("madhu");
     }
+
+    public char[] num(int i) {
+        return null;
+    }
+
+    public char[] Test(int i) {
+        return null;
+    }
 }
