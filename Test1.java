@@ -3,7 +3,7 @@ interface User {
 
     public abstract void logout(String name);
 
-    default void forgetpassword(String name) {
+    static void forgetpassword(String name) {
         System.out.println("hello default"); // default method
     }
 
@@ -22,7 +22,6 @@ class Test1 implements User {
         Test1 t = new Test1();
         t.login("madhu");
         t.logout("reddy");
-        t.forgetpassword("hi");
         System.out.println(t);
     }
 }

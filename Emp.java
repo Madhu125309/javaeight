@@ -9,7 +9,6 @@ public class Emp implements User {
 
     public static void main(String[] args) {
         User e = new Emp();
-        e.forgetpassword("hey");
         e.login("ravi");
         e.logout("eswar");
         System.out.println(e);

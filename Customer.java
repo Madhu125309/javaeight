@@ -10,7 +10,6 @@ public class Customer implements User {
 
     public static void main(String[] args) {
         User c = new Customer();
-        c.forgetpassword("say");
         c.login("ganesh");
         c.logout("rajesh");
         System.out.println(c);
